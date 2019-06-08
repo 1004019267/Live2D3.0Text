@@ -1,0 +1,9 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "chitose.moc3",
+		"Textures": [
+			"chitose.2048/texture_00.png"
+		]
+	}
+}

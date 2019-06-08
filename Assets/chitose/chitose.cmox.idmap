@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?version SerializeFormatVersion:2?>
+<?import com.live2d.cubism.doc.model.id.CDeformerId?>
+<?import com.live2d.cubism.doc.model.id.CDrawableId?>
+<?import com.live2d.cubism.doc.model.id.CParameterId?>
+<?import com.live2d.cubism.doc.model.id.CPartId?>
+<?import com.live2d.cubism.doc.model.options.compatibility.CompatibilityOption_Cubism21to30?>
+<?import com.live2d.cubism.doc.model.options.compatibility.CompatibilityOption_Cubism21to30$IdSet?>
+<?import com.live2d.type.CDeformerGuid?>
+<?import com.live2d.type.CDrawableGuid?>
+<?import com.live2d.type.CParameterGuid?>
+<?import com.live2d.type.CPartGuid?>
+<root>
+	<shared />
+	<main>
+		<CompatibilityOption_Cubism21to30>
+			<carray_list xs.n="idSets" count="201">
+				<IdSet>
+					<s xs.n="idString21">PARAM_ANGLE_X</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="4cc1285e-aca4-4e78-a26b-abe00ddc9110" note="PARAM_ANGLE_X" />
+					<CParameterId xs.n="id30" idstr="PARAM_ANGLE_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ANGLE_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="fc1fd497-9ca8-4625-9e63-1980e02296de" note="PARAM_ANGLE_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_ANGLE_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ANGLE_Z</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="0c444c09-dc45-49a1-8f58-e25d40625b21" note="PARAM_ANGLE_Z" />
+					<CParameterId xs.n="id30" idstr="PARAM_ANGLE_Z" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_L_OPEN</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="5e3e971e-46c3-458f-9d25-efa69a455780" note="PARAM_EYE_L_OPEN" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_L_OPEN" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_L_SMILE</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="c60a44de-c6bf-4f18-b37e-fd459337f875" note="PARAM_EYE_L_SMILE" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_L_SMILE" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_R_OPEN</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="02ab0f53-7f66-45a3-b31a-02a18ce12bcf" note="PARAM_EYE_R_OPEN" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_R_OPEN" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_R_SMILE</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="b1c4eea8-4654-4480-b160-4720324301e4" note="PARAM_EYE_R_SMILE" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_R_SMILE" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_FORM</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="9632f6df-fd85-495d-be50-46037138abfa" note="PARAM_EYE_FORM" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_FORM" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_BALL_X</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="59a5c255-b208-42fc-b8b4-9232e9407a3e" note="PARAM_EYE_BALL_X" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_BALL_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_BALL_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="3d4016a6-3c76-4b72-bccf-b0f6efee2d4d" note="PARAM_EYE_BALL_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_BALL_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_EYE_BALL_FORM</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="e2efca5e-d9e0-4e53-ac97-3413dfaa1c4e" note="PARAM_EYE_BALL_FORM" />
+					<CParameterId xs.n="id30" idstr="PARAM_EYE_BALL_FORM" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BROW_L_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="67689d38-eccb-41bd-8256-f952c505a7e5" note="PARAM_BROW_L_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_BROW_L_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BROW_R_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="298b20d4-dfb5-4df5-a82d-ca17e8667b85" note="PARAM_BROW_R_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_BROW_R_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BROW_L_X</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="de86c8bf-c908-41cb-a9df-408ff45a9cb3" note="PARAM_BROW_L_X" />
+					<CParameterId xs.n="id30" idstr="PARAM_BROW_L_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BROW_R_X</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="d6abd6bb-6895-4aed-9826-d5ffc1ff11e0" note="PARAM_BROW_R_X" />
+					<CParameterId xs.n="id30" idstr="PARAM_BROW_R_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BROW_L_ANGLE</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="06128603-460a-44ef-95de-463f939ba3fc" note="PARAM_BROW_L_ANGLE" />
+					<CParameterId xs.n="id30" idstr="PARAM_BROW_L_ANGLE" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BROW_R_ANGLE</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="78ceb9e2-2c6d-40f7-820b-d83d76f6360a" note="PARAM_BROW_R_ANGLE" />
+					<CParameterId xs.n="id30" idstr="PARAM_BROW_R_ANGLE" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BROW_L_FORM</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="d7b9dbaa-36dc-4c07-b645-ac3e1ea731c6" note="PARAM_BROW_L_FORM" />
+					<CParameterId xs.n="id30" idstr="PARAM_BROW_L_FORM" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BROW_R_FORM</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="6f8ebce5-7806-4e20-ac91-9731419eeb13" note="PARAM_BROW_R_FORM" />
+					<CParameterId xs.n="id30" idstr="PARAM_BROW_R_FORM" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_MOUTH_FORM</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="36d72534-552c-4f21-91d1-ba6146316317" note="PARAM_MOUTH_FORM" />
+					<CParameterId xs.n="id30" idstr="PARAM_MOUTH_FORM" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_MOUTH_OPEN_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="22b7502c-e4f0-40a1-88f9-0e8c97e23adb" note="PARAM_MOUTH_OPEN_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_MOUTH_OPEN_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_CHEEK</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="a1acfb42-0031-48f1-ae59-8d9646c8b6d5" note="PARAM_CHEEK" />
+					<CParameterId xs.n="id30" idstr="PARAM_CHEEK" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_SWEAT</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="942558eb-0cae-4fb5-9534-f0b2df163ea8" note="PARAM_SWEAT" />
+					<CParameterId xs.n="id30" idstr="PARAM_SWEAT" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BODY_ANGLE_X</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="d317eaba-40c8-4f21-a536-401394d767aa" note="PARAM_BODY_ANGLE_X" />
+					<CParameterId xs.n="id30" idstr="PARAM_BODY_ANGLE_X" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BODY_ANGLE_Y</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="a1796426-aa2a-4c65-928c-5b4bae652366" note="PARAM_BODY_ANGLE_Y" />
+					<CParameterId xs.n="id30" idstr="PARAM_BODY_ANGLE_Y" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BODY_ANGLE_Z</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="a9468465-918f-4eaa-b219-438d99297de4" note="PARAM_BODY_ANGLE_Z" />
+					<CParameterId xs.n="id30" idstr="PARAM_BODY_ANGLE_Z" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ARM_L_A</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="70118893-3ad4-4a59-a170-32ac7eaa57d0" note="PARAM_ARM_L_A" />
+					<CParameterId xs.n="id30" idstr="PARAM_ARM_L_A" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ARM_R_A</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="b502e7cc-5a9d-4021-b45b-6d30bc11aeda" note="PARAM_ARM_R_A" />
+					<CParameterId xs.n="id30" idstr="PARAM_ARM_R_A" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_ARM_R_B</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="775d9401-fb77-4a98-8763-060ac59829b5" note="PARAM_ARM_R_B" />
+					<CParameterId xs.n="id30" idstr="PARAM_ARM_R_B" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_BREATH</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="52f3b63e-8480-41e2-b680-4d53c3a12f93" note="PARAM_BREATH" />
+					<CParameterId xs.n="id30" idstr="PARAM_BREATH" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAIR_FRONT</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="b3f71287-45aa-4371-bb6b-c81cf3b5cafd" note="PARAM_HAIR_FRONT" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAIR_FRONT" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAIR_SIDE</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="82ad1dcf-b49e-4dc3-9248-831c6745f285" note="PARAM_HAIR_SIDE" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAIR_SIDE" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARAM_HAIR_BACK</s>
+					<s xs.n="idType21">jp.noids.framework.ID$Param</s>
+					<CParameterGuid xs.n="guid30" uuid="cf854918-2c15-44c2-83b8-dc846bdb9668" note="PARAM_HAIR_BACK" />
+					<CParameterId xs.n="id30" idstr="PARAM_HAIR_BACK" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_CORE.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="fffbcf39-b679-47a2-b1de-92d553b09c54" note="B_CORE_01" />
+					<CDeformerId xs.n="id30" idstr="B_CORE_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_CORE.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="70b11dc1-c6e0-42cb-9c20-44fe1f8cdaae" note="B_CORE_02" />
+					<CDeformerId xs.n="id30" idstr="B_CORE_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_CORE.03</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="3c51ff76-ae3a-4d2d-a281-7d73eceac222" note="B_CORE_03" />
+					<CDeformerId xs.n="id30" idstr="B_CORE_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_CORE.04</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="1ae0aa71-f8bd-4a70-8766-6a091feeb11c" note="B_CORE_04" />
+					<CDeformerId xs.n="id30" idstr="B_CORE_04" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_SWEAT.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="1ea2f2b0-ebcf-4129-9338-1581d3bc8183" note="B_SWEAT_01" />
+					<CDeformerId xs.n="id30" idstr="B_SWEAT_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_CHEEK.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="6dad5020-99e2-49fc-ab6e-d911ebb5c91e" note="B_CHEEK_01" />
+					<CDeformerId xs.n="id30" idstr="B_CHEEK_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_CHEEK.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="0bb0835e-37fe-4e9d-8638-b92af2ebb2c6" note="B_CHEEK_02" />
+					<CDeformerId xs.n="id30" idstr="B_CHEEK_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_FACE.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="15e8b82e-7d4b-4a43-8f07-a517e8a4b7a5" note="B_FACE_01" />
+					<CDeformerId xs.n="id30" idstr="B_FACE_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_FACE.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="75e0dbf4-4270-4e24-808f-e63f95fddf80" note="B_FACE_02" />
+					<CDeformerId xs.n="id30" idstr="B_FACE_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_FACE.03</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="d8df57d8-d94a-4b87-b643-e071c2e70209" note="B_FACE_03" />
+					<CDeformerId xs.n="id30" idstr="B_FACE_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_FACE.04</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="3d372e45-d010-484e-aa30-ffeae7da6415" note="B_FACE_04" />
+					<CDeformerId xs.n="id30" idstr="B_FACE_04" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_EYE.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="934e7e5d-5054-4fca-86dd-f55d92794cc1" note="B_EYE_01" />
+					<CDeformerId xs.n="id30" idstr="B_EYE_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_EYE.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="d3d51d6c-7114-4849-a03f-95a0577540ea" note="B_EYE_02" />
+					<CDeformerId xs.n="id30" idstr="B_EYE_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_EYE.03</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="585f9c16-e64f-4100-973d-9b1d7ac32d35" note="B_EYE_03" />
+					<CDeformerId xs.n="id30" idstr="B_EYE_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_EYE.04</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="bd2c27f6-8b42-4382-8b2c-2633961500a1" note="B_EYE_04" />
+					<CDeformerId xs.n="id30" idstr="B_EYE_04" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_EYE_BALL.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="4b98604e-2f63-4b73-a9d8-27996ef81ba9" note="B_EYE_BALL_01" />
+					<CDeformerId xs.n="id30" idstr="B_EYE_BALL_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_EYE_BALL.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="36a7e01a-43d4-4da7-a7e8-f0b2ee958442" note="B_EYE_BALL_02" />
+					<CDeformerId xs.n="id30" idstr="B_EYE_BALL_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_EYE_BALL.03</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="0b9d8db6-75e5-4102-8c3f-d04f2c14934c" note="B_EYE_BALL_03" />
+					<CDeformerId xs.n="id30" idstr="B_EYE_BALL_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_EYE_BALL.04</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="ff3d39ff-ac38-4823-b5b2-8377ffe1f002" note="B_EYE_BALL_04" />
+					<CDeformerId xs.n="id30" idstr="B_EYE_BALL_04" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_EYE_BALL.05</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="5e8e7902-0c65-4a74-a272-a50b0b2093a9" note="B_EYE_BALL_05" />
+					<CDeformerId xs.n="id30" idstr="B_EYE_BALL_05" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_EYE_BALL.06</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="aea60b92-2575-4758-b4fa-3c226f2175da" note="B_EYE_BALL_06" />
+					<CDeformerId xs.n="id30" idstr="B_EYE_BALL_06" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BROW.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="b8a023d0-1ff4-4639-bf7c-f5f2a235e079" note="B_BROW_01" />
+					<CDeformerId xs.n="id30" idstr="B_BROW_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BROW.03</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="99021d4c-3be4-412d-8650-e23c06c17801" note="B_BROW_03" />
+					<CDeformerId xs.n="id30" idstr="B_BROW_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BROW.04</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="b242ac5b-aa60-4830-a20b-8d9ecc85600d" note="B_BROW_04" />
+					<CDeformerId xs.n="id30" idstr="B_BROW_04" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BROW.05</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="c91de4ec-0abe-44a6-8aa9-0126ff476945" note="B_BROW_05" />
+					<CDeformerId xs.n="id30" idstr="B_BROW_05" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BROW.06</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="7fe53a62-92ab-4bef-92c0-81290627ff82" note="B_BROW_06" />
+					<CDeformerId xs.n="id30" idstr="B_BROW_06" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BROW.07</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="99dfad63-9981-48b4-a692-2863f7a524d3" note="B_BROW_07" />
+					<CDeformerId xs.n="id30" idstr="B_BROW_07" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BROW.08</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="ebe5baab-5e42-45b1-a186-15dc7eab0d57" note="B_BROW_08" />
+					<CDeformerId xs.n="id30" idstr="B_BROW_08" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BROW.10</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="1c175fb1-75fa-49f5-860a-0508de339515" note="B_BROW_10" />
+					<CDeformerId xs.n="id30" idstr="B_BROW_10" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_MOUTH.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="58128787-ef99-4ff8-bd83-d8c47a513e42" note="B_MOUTH_01" />
+					<CDeformerId xs.n="id30" idstr="B_MOUTH_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_NOSE.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="86197fc6-885b-4027-b4ff-b31777e228ae" note="B_NOSE_01" />
+					<CDeformerId xs.n="id30" idstr="B_NOSE_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_EAR.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="59a9cf06-d956-4888-9376-548421d15c1c" note="B_EAR_01" />
+					<CDeformerId xs.n="id30" idstr="B_EAR_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_EAR.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="9ba55292-d41b-47cc-9dbe-866b5dc47d57" note="B_EAR_02" />
+					<CDeformerId xs.n="id30" idstr="B_EAR_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_FRONT.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="3ff3a07f-9995-4d1e-bbf4-470ec935521f" note="B_HAIR_FRONT_01" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_FRONT_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_FRONT.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="01b2b475-981d-4b51-8139-90bdfb83b473" note="B_HAIR_FRONT_02" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_FRONT_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_FRONT.03</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="5c04d55e-b4ac-4438-81c3-6f2a5de6e6c8" note="B_HAIR_FRONT_03" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_FRONT_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_FRONT.04</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="7e798f1f-392e-4cb9-a27a-53bdca1cb855" note="B_HAIR_FRONT_04" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_FRONT_04" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_FRONT.05</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="e63834f5-d1c2-4485-8b74-546093c4f233" note="B_HAIR_FRONT_05" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_FRONT_05" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_FRONT.06</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="f6999b73-6d9d-4c58-8af8-fcd4ce50f55f" note="B_HAIR_FRONT_06" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_FRONT_06" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_FRONT.07</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="4d08e1ab-4a19-4cd5-b3cc-74b1754951fb" note="B_HAIR_FRONT_07" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_FRONT_07" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_BACK.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="52401f8b-60e7-4fcd-be8e-6ba42cd396c6" note="B_HAIR_BACK_01" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_BACK_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_BACK.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="04c73e54-12ef-426f-9b6a-361d013b8970" note="B_HAIR_BACK_02" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_BACK_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_HAIR_BACK.03</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="f156ef48-79c6-4509-95f5-bca903bb3389" note="B_HAIR_BACK_03" />
+					<CDeformerId xs.n="id30" idstr="B_HAIR_BACK_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_NECK.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="fcbab5ba-a7e0-4931-af99-5e5d9ce40dda" note="B_NECK_02" />
+					<CDeformerId xs.n="id30" idstr="B_NECK_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_NECK.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="0c639dae-f2b8-42dc-bf11-812ca4390727" note="B_NECK_01" />
+					<CDeformerId xs.n="id30" idstr="B_NECK_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_NECK.03</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="de1b0017-9a9a-4c84-bc9f-72bddac77366" note="B_NECK_03" />
+					<CDeformerId xs.n="id30" idstr="B_NECK_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_ARM_L_A.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="d2168470-6be3-487e-957d-879203617305" note="B_ARM_L_A_01" />
+					<CDeformerId xs.n="id30" idstr="B_ARM_L_A_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_ARM_L_A.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="520a88f4-44d8-40d3-908e-a25c9bcee11c" note="B_ARM_L_A_02" />
+					<CDeformerId xs.n="id30" idstr="B_ARM_L_A_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_ARM_L_A.03</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="b4a622a9-da50-46df-9fbd-c737c383fd77" note="B_ARM_L_A_03" />
+					<CDeformerId xs.n="id30" idstr="B_ARM_L_A_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_ARM_L_A.04</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="3657f4e0-840f-481c-b3c3-09e1ae234dae" note="B_ARM_L_A_04" />
+					<CDeformerId xs.n="id30" idstr="B_ARM_L_A_04" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_ARM_L_A.05</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="171ac8fc-64d5-440a-9532-0b260b4f8d2c" note="B_ARM_L_A_05" />
+					<CDeformerId xs.n="id30" idstr="B_ARM_L_A_05" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_ARM_L_A.06</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="aea09f87-14b3-466e-ad92-1f39be1ccdf3" note="B_ARM_L_A_06" />
+					<CDeformerId xs.n="id30" idstr="B_ARM_L_A_06" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_ARM_L_A.07</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="75438f68-169e-4bb1-b5a7-fdf18b039b13" note="B_ARM_L_A_07" />
+					<CDeformerId xs.n="id30" idstr="B_ARM_L_A_07" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_ARM_R_A.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="a47a10e7-4441-49f2-9403-924b24ecf75d" note="B_ARM_R_A_01" />
+					<CDeformerId xs.n="id30" idstr="B_ARM_R_A_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_ARM_R_A.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="973c88ce-38dd-435c-bd1b-890f32257b3e" note="B_ARM_R_A_02" />
+					<CDeformerId xs.n="id30" idstr="B_ARM_R_A_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_ARM_R_A.03</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="582e5c65-98ca-44d5-aaa4-d8a015d45ec8" note="B_ARM_R_A_03" />
+					<CDeformerId xs.n="id30" idstr="B_ARM_R_A_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_ARM_R_A.04</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="a1d01a97-9487-463c-9810-d1d846a5ddb6" note="B_ARM_R_A_04" />
+					<CDeformerId xs.n="id30" idstr="B_ARM_R_A_04" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_ARM_R_A.05</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="bef7c31f-6a85-4a54-bccd-253dd86a89f2" note="B_ARM_R_A_05" />
+					<CDeformerId xs.n="id30" idstr="B_ARM_R_A_05" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_ARM_R_B.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="ad8ab073-2a81-4c60-9d8e-032030c50fb2" note="B_ARM_R_B_01" />
+					<CDeformerId xs.n="id30" idstr="B_ARM_R_B_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_ARM_R_B.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="a3282f06-2e55-489a-9cbb-a15e732ca927" note="B_ARM_R_B_02" />
+					<CDeformerId xs.n="id30" idstr="B_ARM_R_B_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_ARM_R_B.03</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="7b6f0c10-383b-44b8-bdc2-67d5acac510a" note="B_ARM_R_B_03" />
+					<CDeformerId xs.n="id30" idstr="B_ARM_R_B_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_ARM_R_B.04</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="dad8b13d-60f9-43a4-a505-e93beb718af5" note="B_ARM_R_B_04" />
+					<CDeformerId xs.n="id30" idstr="B_ARM_R_B_04" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_ARM_R_B.05</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="6686bc11-fe4a-48f3-8208-4207317bfa73" note="B_ARM_R_B_05" />
+					<CDeformerId xs.n="id30" idstr="B_ARM_R_B_05" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_ARM_R_B.06</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="cdd2e2a8-4558-4a1e-a237-68350ddd324c" note="B_ARM_R_B_06" />
+					<CDeformerId xs.n="id30" idstr="B_ARM_R_B_06" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_ARM_R_B.07</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="359ed03d-1b45-46f7-8bc5-919862c5fa78" note="B_ARM_R_B_07" />
+					<CDeformerId xs.n="id30" idstr="B_ARM_R_B_07" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BODY.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="58361a04-fc58-4dfa-b7ab-b29a5083d4fe" note="B_BODY_01" />
+					<CDeformerId xs.n="id30" idstr="B_BODY_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">B_BODY.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="74362c43-1ebe-43ee-9caa-01f83e7c60b5" note="B_BODY_02" />
+					<CDeformerId xs.n="id30" idstr="B_BODY_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_REF.HEAD</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="30118d67-9ba9-4911-a049-fc7328d266af" note="D_REF_HEAD" />
+					<CDrawableId xs.n="id30" idstr="D_REF_HEAD" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_REF.BODY</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="7596a777-e870-400a-916e-986f5f5d17b0" note="D_REF_BODY" />
+					<CDrawableId xs.n="id30" idstr="D_REF_BODY" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_SWEAT.00</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="1f688902-a7a9-4e05-9184-e12234950f2d" note="D_SWEAT_00" />
+					<CDrawableId xs.n="id30" idstr="D_SWEAT_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_CHEEK.00</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="4f8a1d02-2e09-450c-80ee-ec9d65589d4c" note="D_CHEEK_00" />
+					<CDrawableId xs.n="id30" idstr="D_CHEEK_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_CHEEK.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="933373db-14fa-4d0c-a061-ba8c9900a63e" note="D_CHEEK_01" />
+					<CDrawableId xs.n="id30" idstr="D_CHEEK_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_FACE.00</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="ca97a5c8-662e-4bc9-8ab4-11822de83e51" note="D_FACE_00" />
+					<CDrawableId xs.n="id30" idstr="D_FACE_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_FACE.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="d02eae21-dfb8-443d-8313-e7fc2d353d7c" note="D_FACE_01" />
+					<CDrawableId xs.n="id30" idstr="D_FACE_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.00</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="da33be1f-c25f-4e4d-80b3-af9098236254" note="D_EYE_00" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="72c0098e-6929-4536-8410-a0c6e009c271" note="D_EYE_01" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="0ff7f303-5bb8-4210-8ac4-8980bb5890cb" note="D_EYE_02" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.03</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="945d09d1-0c5a-4b73-9fae-04ff3957f982" note="D_EYE_03" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.04</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="83035a63-f641-404e-b62a-d5594d5345ae" note="D_EYE_04" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_04" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.06</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="ddbac6a0-0ff2-43a1-8262-037032ced6c6" note="D_EYE_06" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_06" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.16</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="3013802b-bf3b-4b92-b3db-b8ea5e4e96dc" note="D_EYE_16" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_16" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.17</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="191e2da8-d621-4338-a5c6-94f82267d6d8" note="D_EYE_17" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_17" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.05</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="94f08deb-8102-4c13-b97f-6a6df2921952" note="D_EYE_05" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_05" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.07</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="92db057d-e90d-4a63-8210-c06213628db2" note="D_EYE_07" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_07" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.08</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="f981b2af-8935-40e4-b4b7-2fef4493b25f" note="D_EYE_08" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_08" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.09</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="6e87a4ea-1593-4e5b-a725-d34b201290b3" note="D_EYE_09" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_09" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.10</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="4571a8c4-2453-42c4-ad3b-8554d5b4aef9" note="D_EYE_10" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_10" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.11</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="20407ac4-a11e-4268-825f-16d94f0b2e3b" note="D_EYE_11" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_11" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.14</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="ef0bb4c0-984f-4d14-91ef-c6fa2184a381" note="D_EYE_14" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_14" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.12</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="572e3b52-e3cd-4cb4-be01-45a13f35000d" note="D_EYE_12" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_12" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.18</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="b604d9a6-768e-498c-9f46-a7e67957477a" note="D_EYE_18" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_18" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.19</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="a11d4159-0b04-42fe-aa4d-3c3642ee64cf" note="D_EYE_19" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_19" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.13</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="49b9a8af-d88b-4fa8-8fac-158b00584991" note="D_EYE_13" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_13" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE.15</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="bef0b47a-c8d7-4e0e-9f9c-57f58d0fd79e" note="D_EYE_15" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_15" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE_BALL.00</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="02211a81-5e7e-47d6-a946-de1db45925dd" note="D_EYE_BALL_00" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_BALL_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE_BALL.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="a89f985f-c009-4024-b8a8-888541a9cea0" note="D_EYE_BALL_01" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_BALL_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE_BALL.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="8f342f87-468d-4b0d-8aff-29e9d16ce51f" note="D_EYE_BALL_02" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_BALL_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EYE_BALL.03</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="53a56f14-8900-49ba-b021-e1ad118b8c38" note="D_EYE_BALL_03" />
+					<CDrawableId xs.n="id30" idstr="D_EYE_BALL_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_BROW.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="84079245-3d7d-4db1-b74c-121a380c3bd8" note="D_BROW_02" />
+					<CDrawableId xs.n="id30" idstr="D_BROW_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_BROW.00</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="7d51493e-dc93-4968-a45b-5e2b44113cdb" note="D_BROW_00" />
+					<CDrawableId xs.n="id30" idstr="D_BROW_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_BROW.03</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="7ae6be0c-3540-4962-88b4-99677b2fb7b1" note="D_BROW_03" />
+					<CDrawableId xs.n="id30" idstr="D_BROW_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_BROW.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="e86efcb1-8cd0-42f2-a3a3-6511beaf432b" note="D_BROW_01" />
+					<CDrawableId xs.n="id30" idstr="D_BROW_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_MOUTH.00</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="ffa5ac9e-6120-4fe3-8aea-59ca38be9e42" note="D_MOUTH_00" />
+					<CDrawableId xs.n="id30" idstr="D_MOUTH_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_MOUTH.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="5d96bba9-dfad-48e9-a0a6-8a7e348aa6a6" note="D_MOUTH_01" />
+					<CDrawableId xs.n="id30" idstr="D_MOUTH_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_MOUTH.03</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="f2f0a6af-fb72-4087-802a-5a29a1964727" note="D_MOUTH_03" />
+					<CDrawableId xs.n="id30" idstr="D_MOUTH_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_MOUTH.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="18f8a4ef-642c-4892-b346-accd797cf543" note="D_MOUTH_02" />
+					<CDrawableId xs.n="id30" idstr="D_MOUTH_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_MOUTH.04</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="6637f74b-d3f2-4e9e-804a-99375df2c489" note="D_MOUTH_04" />
+					<CDrawableId xs.n="id30" idstr="D_MOUTH_04" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_MOUTH.05</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="248e5a8d-89eb-4225-8791-38264b3ce910" note="D_MOUTH_05" />
+					<CDrawableId xs.n="id30" idstr="D_MOUTH_05" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_NOSE.00</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="5bead34f-2c44-40c5-bcd5-ce9310825c2a" note="D_NOSE_00" />
+					<CDrawableId xs.n="id30" idstr="D_NOSE_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_NOSE.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="43bd6c15-1a10-43b9-a4b9-fa259e1dc41a" note="D_NOSE_01" />
+					<CDrawableId xs.n="id30" idstr="D_NOSE_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EAR.00</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="547bde1c-bbb6-4161-9f8e-d4124d8c4a24" note="D_EAR_00" />
+					<CDrawableId xs.n="id30" idstr="D_EAR_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_EAR.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="dac2f33e-11ab-48e1-878d-946381d486e7" note="D_EAR_01" />
+					<CDrawableId xs.n="id30" idstr="D_EAR_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_HAIR_FRONT.00</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="c3e6dff5-c355-41c8-8f0e-65eec893f2f4" note="D_HAIR_FRONT_00" />
+					<CDrawableId xs.n="id30" idstr="D_HAIR_FRONT_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_HAIR_FRONT.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="b0510d5c-90d9-4df0-bcbe-3e4120b9a416" note="D_HAIR_FRONT_01" />
+					<CDrawableId xs.n="id30" idstr="D_HAIR_FRONT_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_HAIR_FRONT.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="b7bd4d6a-d009-4d3b-8bbf-ff611c3a7f15" note="D_HAIR_FRONT_02" />
+					<CDrawableId xs.n="id30" idstr="D_HAIR_FRONT_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_HAIR_FRONT.03</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="d555c8ab-4221-4c97-9a73-06565eaba6ad" note="D_HAIR_FRONT_03" />
+					<CDrawableId xs.n="id30" idstr="D_HAIR_FRONT_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_HAIR_BACK.00</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="de01fc0f-042a-4ae6-bea4-18e42db4d002" note="D_HAIR_BACK_00" />
+					<CDrawableId xs.n="id30" idstr="D_HAIR_BACK_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_NECK.00</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="f62b2fe9-6b31-45d7-83d4-74dee4fb7e0a" note="D_NECK_00" />
+					<CDrawableId xs.n="id30" idstr="D_NECK_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_ARM_L_A.00</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="7d2e2165-e8a0-4fd5-82c7-4c5b1780ce48" note="D_ARM_L_A_00" />
+					<CDrawableId xs.n="id30" idstr="D_ARM_L_A_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_ARM_L_A.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="0d541519-ed36-4225-8fcf-d743e61bb173" note="D_ARM_L_A_01" />
+					<CDrawableId xs.n="id30" idstr="D_ARM_L_A_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_ARM_L_A.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="cc8dd680-ba0f-4586-bbf9-11144fe57bbb" note="D_ARM_L_A_02" />
+					<CDrawableId xs.n="id30" idstr="D_ARM_L_A_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_ARM_L_A.03</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="2e75e2a8-dce6-48cb-be07-f78f1758b5a3" note="D_ARM_L_A_03" />
+					<CDrawableId xs.n="id30" idstr="D_ARM_L_A_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_ARM_R_A.00</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="ca8127e6-4025-4102-a4b4-18557224ece1" note="D_ARM_R_A_00" />
+					<CDrawableId xs.n="id30" idstr="D_ARM_R_A_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_ARM_R_A.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="11fdb7cd-6fa3-4ea4-a2a0-fce80268a5df" note="D_ARM_R_A_01" />
+					<CDrawableId xs.n="id30" idstr="D_ARM_R_A_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_ARM_R_B.00</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="566b51b4-0b3e-47dd-abda-8943e8bf6fed" note="D_ARM_R_B_00" />
+					<CDrawableId xs.n="id30" idstr="D_ARM_R_B_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_ARM_R_B.03</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="99a80edf-f9ab-4ae2-85b1-9c1c2b6d7167" note="D_ARM_R_B_03" />
+					<CDrawableId xs.n="id30" idstr="D_ARM_R_B_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_ARM_R_B.04</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="3bc0a3d0-fe3a-4098-bfa8-cd7efd9b5d9b" note="D_ARM_R_B_04" />
+					<CDrawableId xs.n="id30" idstr="D_ARM_R_B_04" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_ARM_R_B.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="bac1b11b-18ea-4c37-aef8-01cf6b5106dc" note="D_ARM_R_B_01" />
+					<CDrawableId xs.n="id30" idstr="D_ARM_R_B_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_ARM_R_B.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="6ea3e3e5-497a-4b81-80bc-d958ebc7ed6a" note="D_ARM_R_B_02" />
+					<CDrawableId xs.n="id30" idstr="D_ARM_R_B_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_BODY.00</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="83f92a91-2991-4585-8d00-46fb6c9a2eaa" note="D_BODY_00" />
+					<CDrawableId xs.n="id30" idstr="D_BODY_00" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_BODY.01</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="4566eb43-0dd9-4e06-ba2f-546faf91fa44" note="D_BODY_01" />
+					<CDrawableId xs.n="id30" idstr="D_BODY_01" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_BODY.02</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="b150ac33-c43d-4dde-80f3-5abf277e8b8e" note="D_BODY_02" />
+					<CDrawableId xs.n="id30" idstr="D_BODY_02" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">D_BODY.03</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="9438b6a4-88dd-4779-b9c3-67694337ef6e" note="D_BODY_03" />
+					<CDrawableId xs.n="id30" idstr="D_BODY_03" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">反転.png_</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="32efe6e3-153c-456a-a2a6-eaaa4b4f7a4f" note="Sketch" />
+					<CDrawableId xs.n="id30" idstr="Sketch" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">開き口3.png_</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="b8e013c1-8790-40f2-8ff2-789f471d729f" note="Sketch__0" />
+					<CDrawableId xs.n="id30" idstr="Sketch__0" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">開き口2.png_</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="7f8b237a-849f-4a72-8f94-07c70e819506" note="Sketch__1" />
+					<CDrawableId xs.n="id30" idstr="Sketch__1" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">開き口1.png_</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="9663f593-e2e5-4849-8e7c-3dcdf4f8a062" note="Sketch__2" />
+					<CDrawableId xs.n="id30" idstr="Sketch__2" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">とじ目.png_</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="de5fe812-3658-4a6e-b21e-166153f05125" note="Sketch__3" />
+					<CDrawableId xs.n="id30" idstr="Sketch__3" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">驚く.png_</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="3eef5d8c-fe20-4c30-bcbe-31fd94634feb" note="Sketch__4" />
+					<CDrawableId xs.n="id30" idstr="Sketch__4" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">困る.png_</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="aa717589-3762-4054-9a16-4513ce82de95" note="Sketch__5" />
+					<CDrawableId xs.n="id30" idstr="Sketch__5" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">照れる.png_</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="f076c967-6e54-4140-b0ab-22ee2661bff0" note="Sketch__6" />
+					<CDrawableId xs.n="id30" idstr="Sketch__6" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">怒る.png_</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="257edd02-c288-485b-b99a-1542091c34bf" note="Sketch__7" />
+					<CDrawableId xs.n="id30" idstr="Sketch__7" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">悲しむ.png_</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="96d40934-d4a1-40c0-b590-029bf31ec47b" note="Sketch__8" />
+					<CDrawableId xs.n="id30" idstr="Sketch__8" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">笑顔.png_</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="66765061-0939-481a-a855-a67c2ba1dd02" note="Sketch__9" />
+					<CDrawableId xs.n="id30" idstr="Sketch__9" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">下絵B.png_</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="e1096a04-5ff9-454e-9e36-d76226a6124c" note="Sketch__10" />
+					<CDrawableId xs.n="id30" idstr="Sketch__10" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">下絵A.png_</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$DrawData</s>
+					<CDrawableGuid xs.n="guid30" uuid="8dab342c-da92-4aa6-afcd-ae1b6b555bbf" note="Sketch__11" />
+					<CDrawableId xs.n="id30" idstr="Sketch__11" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_SKETCH</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="0b4f53d9-57b9-449c-81c2-5635e839dfe3" note="PARTS_01_SKETCH" />
+					<CPartId xs.n="id30" idstr="PARTS_01_SKETCH" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">DST_BASE</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$BaseData</s>
+					<CDeformerGuid xs.n="guid30" uuid="71fae776-e218-4aee-873e-78e8ac0cb48a" note="ROOT" />
+					<CDeformerId xs.n="id30" idstr="__RootDeformer__" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_BACKGROUND</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="08c00f95-730d-436b-871f-e28faca8eb4c" note="PARTS_01_BACKGROUND" />
+					<CPartId xs.n="id30" idstr="PARTS_01_BACKGROUND" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_BODY</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="dc57e734-a790-483a-8553-c2d7f49603c9" note="PARTS_01_BODY" />
+					<CPartId xs.n="id30" idstr="PARTS_01_BODY" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_ARM_R_B</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="58df3fc8-2e63-4462-b45e-6bf08dd103b6" note="PARTS_01_ARM_R_B" />
+					<CPartId xs.n="id30" idstr="PARTS_01_ARM_R_B" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_ARM_R_A</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="87343ae4-7476-496a-8c7b-eaf690c7723c" note="PARTS_01_ARM_R_A" />
+					<CPartId xs.n="id30" idstr="PARTS_01_ARM_R_A" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_ARM_L_A</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="55b0b195-310c-4ac9-b4bd-389f0485fbff" note="PARTS_01_ARM_L_A" />
+					<CPartId xs.n="id30" idstr="PARTS_01_ARM_L_A" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_NECK</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="1cf64d21-5632-4122-a083-fbb4f303a1bd" note="PARTS_01_NECK" />
+					<CPartId xs.n="id30" idstr="PARTS_01_NECK" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_HAIR_BACK_001</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="2c22a77c-2ec3-4072-8627-79d47c35fd2c" note="PARTS_01_HAIR_BACK_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_HAIR_BACK_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_HAIR_SIDE_001</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="87262379-c732-49a3-97cb-91d6ed991259" note="PARTS_01_HAIR_SIDE_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_HAIR_SIDE_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_HAIR_FRONT_001</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="815dd5b1-8319-4a27-98cc-ec7ed8f1b02b" note="PARTS_01_HAIR_FRONT_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_HAIR_FRONT_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_EAR_001</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="76918308-1fe5-41c9-b753-ca53be06118b" note="PARTS_01_EAR_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_EAR_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_NOSE_001</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="2d4896c4-2fbe-4b1b-84e0-78024786adae" note="PARTS_01_NOSE_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_NOSE_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_MOUTH_001</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="554ffec5-0fe2-41a9-b96e-7c9ad125fd1e" note="PARTS_01_MOUTH_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_MOUTH_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_BROW_001</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="49e76f5e-a0d2-4f2f-95d2-0d31a046f817" note="PARTS_01_BROW_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_BROW_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_EYE_BALL_001</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="35554c28-608f-41db-96b8-d96813476e40" note="PARTS_01_EYE_BALL_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_EYE_BALL_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_EYE_001</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="4698da39-2e2e-4726-912e-db3de6d24efe" note="PARTS_01_EYE_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_EYE_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_FACE_001</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="191a3eea-6761-45f6-9f57-0e358fcf1ba0" note="PARTS_01_FACE_001" />
+					<CPartId xs.n="id30" idstr="PARTS_01_FACE_001" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_CHEEK</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="ab156e46-fca7-4c61-8574-c63de1ec9673" note="PARTS_01_CHEEK" />
+					<CPartId xs.n="id30" idstr="PARTS_01_CHEEK" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_SWEAT</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="07b8ad61-3f38-4c49-af2b-12e4543afda5" note="PARTS_01_SWEAT" />
+					<CPartId xs.n="id30" idstr="PARTS_01_SWEAT" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">PARTS_01_CORE</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="6f547ebd-b72f-4633-80c7-daae74f8136d" note="PARTS_01_CORE" />
+					<CPartId xs.n="id30" idstr="PARTS_01_CORE" />
+				</IdSet>
+				<IdSet>
+					<s xs.n="idString21">ROUGH</s>
+					<s xs.n="idType21">jp.noids.model3Dp.IDa$PartsData</s>
+					<CPartGuid xs.n="guid30" uuid="b30849ad-3deb-4aca-8f60-e8f7eb199752" note="ROUGH" />
+					<CPartId xs.n="id30" idstr="ROUGH" />
+				</IdSet>
+			</carray_list>
+		</CompatibilityOption_Cubism21to30>
+	</main>
+</root>
+
